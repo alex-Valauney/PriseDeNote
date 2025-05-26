@@ -8,6 +8,7 @@
 4. MySQL
 5. Prisma
 6. Remote Gitea Github
+7. Architecture de code
 
 ### 01 Next.js
 
@@ -115,3 +116,23 @@ model Device {
 7. vérifier avec : ``` git remote -v```
 
 pour push sur github: ```git push github```
+
+### 07 Architechture de code
+
+#### A Modèle-Vue-Contrôleur (MVC)
+
+- un Modèle (model) contien les donée à afficher
+- une Vue (view) contient la présentation de l'interface graphique
+- un Contrôleur (controller) contien la logic concernant les actions effectuées par l'utilisateur
+
+##### Varient
+
+- Model-View-Presenter (MVP)
+  Dans le patron MVP, le contrôleur est remplacé par une présentation. La présentation est créée par la vue  et lui est associée par une interface. Les actions utilisateur déclenchent des événements sur la vue, et ces événements sont propagés à la présentation en utilisant l'interface
+- Model-View-View-Model (MVVM)
+  Dans le patron MVVM il y a une communication bidirectionnelle entre la vue et le modèle, les actions de l'utilisateur entraînent des modifications des données du modèle
+
+##### Lien wikipedia
+- [MVC](https://fr.wikipedia.org/wiki/Mod%C3%A8le-vue-contr%C3%B4leur)
+- [MVP](https://fr.wikipedia.org/wiki/Mod%C3%A8le-vue-pr%C3%A9sentation)
+- [MVVM](https://fr.wikipedia.org/wiki/Mod%C3%A8le-vue-vue_mod%C3%A8le)
