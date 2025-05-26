@@ -41,3 +41,18 @@ use --force
 
 ### 03 Zod
 
+```npm install zod@canary```
+
+pour vérifier si sa a bien fonctioner :
+1. Crée un fichier zod.ts dans app/lib
+2. copier dans le fichier :
+  ```
+import { z } from "zod/v4";
+ 
+const User = z.object({
+  name: z.string(),
+});
+```
+3. si l'import ne marque pas d'erreur alors tout est bon
+
+### 04 MySQL
