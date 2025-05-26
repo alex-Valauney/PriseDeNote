@@ -32,6 +32,12 @@ Angulard gerre mieux les moyens et grand projet
 #### lancer le serveur Next.js
 ```npm run dev```
 
+#### info pratique
+
+Les nom des dossier dans app et qui on un fichier page.tsx, se retrouveron comme nom de la page HTML
+
+mettre les crochet au nom de dossier permet de modifier la regle plus haut
+
 ### 02 Shadcn
 
 #### instalation de Shadcn pour Next.js format npm:
