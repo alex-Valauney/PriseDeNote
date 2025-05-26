@@ -29,3 +29,15 @@ Angulard gerre mieux les moyens et grand projet
   - ✔ Would you like to use Turbopack for `next dev`? … No / [Yes]
   - ✔ Would you like to customize the import alias (`@/*` by default)? … [No] / Yes
 
+### 02 Shadcn
+
+#### instalation de Shadcn pour Next.js format npm:
+
+```npx shadcn@latest init```
+
+base color : neutral
+
+use --force
+
+### 03 Zod
+
