@@ -94,3 +94,18 @@ model Device {
 ```npx prisma migrate dev```
 
 ### 06 Remote Gitea Github
+
+1. clonée normalement le fichier sur Gitea
+2. aller sur Github
+3. créée le répo
+4. si besoin crée un token classic
+   1. aller dans Setting
+   2. Developer Settings
+   3. Tokens (classic)
+   4. Generate new Token
+   5. Generate new Token (classic)
+   6. copier le mot de passe (token) quelle que par
+6. dans le terminal ```git remote add github (lien du repo)```
+7. vérifier avec : ``` git remote -v```
+
+pour push sur github: ```git push github```
