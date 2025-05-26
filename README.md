@@ -29,6 +29,9 @@ Angulard gerre mieux les moyens et grand projet
   - ✔ Would you like to use Turbopack for `next dev`? … No / [Yes]
   - ✔ Would you like to customize the import alias (`@/*` by default)? … [No] / Yes
 
+#### lancer le serveur Next.js
+```npm run dev```
+
 ### 02 Shadcn
 
 #### instalation de Shadcn pour Next.js format npm:
@@ -66,6 +69,28 @@ const User = z.object({
 
 1. (entrée sur MySQL) ```sudo mysql```
 2. (créée la base de donée) ```CREATE DATABASE dev;```
-3. (pour sortir) ``èxit```
+3. (pour sortir) ```èxit```
+   
+4. (dans le fichier .env) ```DATABASE_URL="mysql://root:root@localhost:3306/dev"
 
-### 03 Prisma (à vérifier)
+### 05 Prisma (à vérifier)
+
+#### instalation de Prisma
+
+```npx prisma@latest init --db```
+
+pour vérifier :
+dans le fichier schema.prisma
+
+```
+model Device {
+  id   Int                   @id @default(autoincrement())
+  name String
+}
+```
+
+#### migrée prisma
+
+```npx prisma migrate dev```
+
+### 06 Remote Gitea Github
