@@ -33,17 +33,18 @@ Angulard gerre mieux les moyens et grand projet
 
 #### instalation de Shadcn pour Next.js format npm:
 
-```npx shadcn@latest init```
-
-base color : neutral
-
-use --force
+1. ```npx shadcn@latest init```
+2. base color : neutral
+3. use --force
 
 ### 03 Zod
+
+#### instalation de Zod
 
 ```npm install zod@canary```
 
 pour vérifier si sa a bien fonctioner :
+
 1. Crée un fichier zod.ts dans app/lib
 2. copier dans le fichier :
   ```
@@ -55,4 +56,16 @@ const User = z.object({
 ```
 3. si l'import ne marque pas d'erreur alors tout est bon
 
-### 04 MySQL
+### 04 MySQL (à vérifier)
+
+#### instalation de MySQL
+
+``` sudo apt install mysql-server```
+
+#### créée la base de donée
+
+1. (entrée sur MySQL) ```sudo mysql```
+2. (créée la base de donée) ```CREATE DATABASE dev;```
+3. (pour sortir) ``èxit```
+
+### 03 Prisma (à vérifier)
