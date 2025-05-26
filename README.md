@@ -136,3 +136,7 @@ pour push sur github: ```git push github```
 - [MVC](https://fr.wikipedia.org/wiki/Mod%C3%A8le-vue-contr%C3%B4leur)
 - [MVP](https://fr.wikipedia.org/wiki/Mod%C3%A8le-vue-pr%C3%A9sentation)
 - [MVVM](https://fr.wikipedia.org/wiki/Mod%C3%A8le-vue-vue_mod%C3%A8le)
+
+#### B Architecture en couches (Layered Architecture)
+
+#### C
