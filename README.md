@@ -173,4 +173,4 @@ Scrypt nécessite une quantité significative de mémoire pour effectuer le hach
 Scrypt est utilisé dans des contextes similaires à ceux de bcrypt, mais il est particulièrement populaire dans les systèmes où la résistance aux attaques par matériel est une priorité.
 
 ##### Lien wikipedia
-[Sccript](https://fr.wikipedia.org/wiki/Scrypt)
+[Scrypt](https://fr.wikipedia.org/wiki/Scrypt)
