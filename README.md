@@ -9,6 +9,7 @@
 5. Prisma
 6. Remote Gitea Github
 7. Architecture de code
+8. Bcript
 
 ### 01 Next.js
 
@@ -133,6 +134,7 @@ pour push sur github: ```git push github```
   Dans le patron MVVM il y a une communication bidirectionnelle entre la vue et le modèle, les actions de l'utilisateur entraînent des modifications des données du modèle
 
 ##### Lien wikipedia
+
 - [MVC](https://fr.wikipedia.org/wiki/Mod%C3%A8le-vue-contr%C3%B4leur)
 - [MVP](https://fr.wikipedia.org/wiki/Mod%C3%A8le-vue-pr%C3%A9sentation)
 - [MVVM](https://fr.wikipedia.org/wiki/Mod%C3%A8le-vue-vue_mod%C3%A8le)
@@ -141,4 +143,7 @@ pour push sur github: ```git push github```
 
 #### C Architecture microservice
 
-#### D 
+L'architecture de microservice désigne un style d'architecture utilisé dans le developement d'aplication.
+Elle permet de décomposer une application volumineuse en composants indépendants, chaque élément ayant ses propres responsabilités. Pour diffuser la requête d'un utilisateur unique, une application basée sur des microservices peut appeler plusieurs microservices internes pour composer sa réponse.
+
+### 08 Bcript
