@@ -9,7 +9,7 @@
 5. Prisma
 6. Remote Gitea Github
 7. Architecture de code
-8. Bcript
+8. Criptage et Hachage
 
 ### 01 Next.js
 
@@ -134,7 +134,6 @@ pour push sur github: ```git push github```
   Dans le patron MVVM il y a une communication bidirectionnelle entre la vue et le modèle, les actions de l'utilisateur entraînent des modifications des données du modèle
 
 ##### Lien wikipedia
-
 - [MVC](https://fr.wikipedia.org/wiki/Mod%C3%A8le-vue-contr%C3%B4leur)
 - [MVP](https://fr.wikipedia.org/wiki/Mod%C3%A8le-vue-pr%C3%A9sentation)
 - [MVVM](https://fr.wikipedia.org/wiki/Mod%C3%A8le-vue-vue_mod%C3%A8le)
@@ -146,11 +145,32 @@ pour push sur github: ```git push github```
 L'architecture de microservice désigne un style d'architecture utilisé dans le developement d'aplication.
 Elle permet de décomposer une application volumineuse en composants indépendants, chaque élément ayant ses propres responsabilités. Pour diffuser la requête d'un utilisateur unique, une application basée sur des microservices peut appeler plusieurs microservices internes pour composer sa réponse.
 
-### 08 Bcript
+### 08 Criptage et Hachage
 
-Bcript est une fonction de dérivation de clé, qui est basée sur un algorithme de chifrement.
-En plus d'utiliser du sel Bcript utilise un nombre itération que l'on chosir, mais plus d'itération egal plus de tempt de calcul.
+#### A Bcrypt
 
-#### Lien wikipedia
+- Définition :
+Bcrypt est un algorithme de hachage basé sur le chiffrement Blowfish. Il est conçu pour être lent afin de rendre plus difficile les attaques par force brute.
+- Salage :
+Bcrypt intègre un mécanisme de salage, ce qui signifie qu'il ajoute des données aléatoires aux mots de passe avant de les hacher, rendant chaque hachage unique même pour des mots de passe identiques.
+- Coût de calcul :
+Il permet de définir un coût de calcul, ce qui signifie que vous pouvez ajuster la difficulté du hachage en fonction de la puissance de calcul disponible, rendant l'algorithme plus résistant aux attaques au fil du temps.
+- Utilisation :
+Scrypt est utilisé dans des contextes similaires à ceux de bcrypt, mais il est particulièrement populaire dans les systèmes où la résistance aux attaques par matériel est une priorité.
 
+##### Lien wikipedia
 [Bcript](https://fr.wikipedia.org/wiki/Bcrypt)
+
+#### B Scrypt
+
+- Définition :
+Scrypt est également un algorithme de hachage conçu pour le stockage sécurisé des mots de passe, mais il a été spécifiquement conçu pour être résistant aux attaques par matériel (ASIC).
+- Salage :
+Comme bcrypt, scrypt utilise un salage pour garantir que les hachages sont uniques.
+- Coût de mémoire : 
+Scrypt nécessite une quantité significative de mémoire pour effectuer le hachage, ce qui le rend plus coûteux en ressources pour les attaquants qui tentent d'utiliser du matériel spécialisé pour effectuer des attaques par force brute.
+- Utilisation :
+Scrypt est utilisé dans des contextes similaires à ceux de bcrypt, mais il est particulièrement populaire dans les systèmes où la résistance aux attaques par matériel est une priorité.
+
+##### Lien wikipedia
+[Sccript](https://fr.wikipedia.org/wiki/Scrypt)
