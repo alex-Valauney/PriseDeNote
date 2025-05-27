@@ -10,9 +10,7 @@
 6. Remote Gitea Github
 7. Architecture de code
 8. Criptage et Hachage
-
 ---
-
 ### 01 Next.js
 
 #### Comparaison Next.js et angular
@@ -43,7 +41,6 @@ Les nom des dossier dans app et qui on un fichier page.tsx, se retrouveron comme
 mettre les crochet au nom de dossier permet de modifier la regle plus haut
 
 ---
-
 ### 02 Shadcn
 
 #### instalation de Shadcn pour Next.js format npm:
@@ -51,7 +48,7 @@ mettre les crochet au nom de dossier permet de modifier la regle plus haut
 1. ```npx shadcn@latest init```
 2. base color : neutral
 3. use --force
-
+---
 ### 03 Zod
 
 #### instalation de Zod
@@ -70,9 +67,7 @@ const User = z.object({
 });
 ```
 3. si l'import ne marque pas d'erreur alors tout est bon.
-
 ---
-
 ### 04 MySQL (à vérifier)
 
 #### instalation de MySQL
@@ -86,7 +81,7 @@ const User = z.object({
 3. (pour sortir) ```èxit```
    
 4. (dans le fichier .env) ```DATABASE_URL="mysql://root:root@localhost:3306/dev"
-
+---
 ### 05 Prisma (à vérifier)
 
 #### instalation de Prisma
@@ -108,7 +103,6 @@ model Device {
 ```npx prisma migrate dev```
 
 ---
-
 ### 06 Remote Gitea Github
 
 1. clonée normalement le fichier sur Gitea
@@ -127,7 +121,6 @@ model Device {
 pour push sur github: ```git push github```
 
 ---
-
 ### 07 Architechture de code
 
 #### A Modèle-Vue-Contrôleur (MVC)
@@ -156,7 +149,6 @@ L'architecture de microservice désigne un style d'architecture utilisé dans le
 Elle permet de décomposer une application volumineuse en composants indépendants, chaque élément ayant ses propres responsabilités. Pour diffuser la requête d'un utilisateur unique, une application basée sur des microservices peut appeler plusieurs microservices internes pour composer sa réponse.
 
 ---
-
 ### 08 Criptage et Hachage
 
 #### A Bcrypt
