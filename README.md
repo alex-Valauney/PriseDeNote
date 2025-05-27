@@ -147,3 +147,10 @@ L'architecture de microservice désigne un style d'architecture utilisé dans le
 Elle permet de décomposer une application volumineuse en composants indépendants, chaque élément ayant ses propres responsabilités. Pour diffuser la requête d'un utilisateur unique, une application basée sur des microservices peut appeler plusieurs microservices internes pour composer sa réponse.
 
 ### 08 Bcript
+
+Bcript est une fonction de dérivation de clé, qui est basée sur un algorithme de chifrement.
+En plus d'utiliser du sel Bcript utilise un nombre itération que l'on chosir, mais plus d'itération egal plus de tempt de calcul.
+
+#### Lien wikipedia
+
+[Bcript](https://fr.wikipedia.org/wiki/Bcrypt)
