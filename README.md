@@ -10,6 +10,7 @@
 6. Remote Gitea Github
 7. Architecture de code
 8. Criptage et Hachage
+9. D3.js
 ---
 ### 01 Next.js
 
@@ -178,3 +179,9 @@ Scrypt est utilisé dans des contextes similaires à ceux de bcrypt, mais il est
 
 ##### Lien wikipedia
 [Scrypt](https://fr.wikipedia.org/wiki/Scrypt)
+
+---
+### 09 D3.js
+
+instalation:
+npm install d3
