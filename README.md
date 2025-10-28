@@ -11,7 +11,7 @@
 7. Architecture de code
 8. Criptage et Hachage
 9. D3.js
-10. Postman
+10. Testeur API
 ---
 ### 01 Next.js
 
@@ -188,9 +188,9 @@ instalation:
 npm install d3
 
 ---
-### 10 Postman
+### 10 Testeur d'API
 
-Logiel utiliser pour tester des API
+#### Postman
 
 instalation:
 Dans le centre d'aplication de linux
@@ -199,3 +199,10 @@ utilisable aussi sur certain navigateur web
 
 ##### Lien wikipédia
 [Postman](https://fr.wikipedia.org/wiki/Postman_(logiciel))
+
+#### Insomnia
+
+à la diférence de Postman, Insomnia est un projet open-source et colaboratif, il est spécialiser pour les API RESTful et GraphQL
+
+instalation:
+Dans le centre d'aplication de linux
