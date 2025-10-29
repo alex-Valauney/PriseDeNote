@@ -11,7 +11,8 @@
 7. Architecture de code
 8. Criptage et Hachage
 9. D3.js
-10. Testeur API
+10. API
+11. Testeur API
 ---
 ### 01 Next.js
 
@@ -188,7 +189,15 @@ instalation:
 npm install d3
 
 ---
-### 10 Testeur d'API
+### 10 API
+
+#### MangoDB
+
+MangoDB est un système de gestion de base de données NoSQL orianté documents.
+Il stocke les données 
+
+---
+### 11 Testeur d'API
 
 #### Postman
 
@@ -206,3 +215,7 @@ utilisable aussi sur certain navigateur web
 
 instalation:
 Dans le centre d'aplication de linux
+
+#### cURL
+
+Le cURL (Client URL) est un outil en ligne de commande et une bibliothèque (libcurl) utilisé pour transférer des données vers ou depuis un serveur, en utilisant différents protocoles réseeau comme HTTP, HTTPS, FTP, SMTP, ... .
