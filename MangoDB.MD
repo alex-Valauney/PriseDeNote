@@ -2,6 +2,11 @@
 
 ## MangoDB
 
+### Commende de basse
+
+liste commande :
+db.help()
+
 lancer mongo :
 ``sudo systemctl start mongod``
 
@@ -12,10 +17,12 @@ ouvrir mango :
 ``mongosh``
 
 rentrée dans la DB :
-``use letsplay``
+``(nom de la db)``
 
 trouver utilissateur :
 ``db.users.find().pretty()``
+
+### Cas d'utilisation :
 
 insérer un utilisateur :
 ``db.users.insertOne({
