@@ -5,6 +5,7 @@
 1. Angular
 2. React
 3. Vue.js
+4. Points communs
 ---
 ### Angular
 
@@ -22,3 +23,8 @@ Meta (facebook)
 
 #### Déveloper par :
 Evan You
+
+---
+### Points communs :
+
+Ce sont les trois frameworks les plus utiliser.
